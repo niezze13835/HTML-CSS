@@ -545,7 +545,7 @@ span .order-1 :hover{
 .close-button span {
     width: 150%;
     height: 150px;
-    background-image: url('/pictures/ss.png');
+    background-image: url('https://raw.githubusercontent.com/niezze13835/HTML-CSS/main/ss.png');
     background-repeat: no-repeat;
     background-size: contain;
     pointer-events: none;
@@ -587,7 +587,7 @@ span .order-1 :hover{
 }
 /*Everything*/
 .browns{
-    background-image: url(/pictures/caty.jpg);
+    background-image: url(https://raw.githubusercontent.com/niezze13835/HTML-CSS/main/caty.jpg);
     height: 90vh;
     background-size:auto; 
 }
@@ -895,7 +895,7 @@ li .tab-title{
     padding: 70px;
     text-align: center;
     background-color: #d4d4d4;
-     background-image: url( /pictures/aboutbg.jpg ); 
+     background-image: url( https://raw.githubusercontent.com/niezze13835/HTML-CSS/main/aboutbg.jpg ); 
      height: auto; 
      margin-top: 0%;
 }
@@ -1092,7 +1092,7 @@ ul.breadcrumb {
     padding: 0;
 }
 .doggiessss {
-    background-image: url(/pictures/about4bg.jpg);
+    background-image: url(https://raw.githubusercontent.com/niezze13835/HTML-CSS/main/about4bg.jpg);
 }
 #dogrow{
     margin-right: 0; margin-left: 0;
@@ -1105,7 +1105,7 @@ ul.breadcrumb {
 }
 #contpage{
     background-color: #d4d4d4;
-    background-image: url( /pictures/aboutbg.jpg ); 
+    background-image: url( https://raw.githubusercontent.com/niezze13835/HTML-CSS/main/aboutbg.jpg); 
     height: 47vh;
     margin-top: 0%;
 }
@@ -1328,7 +1328,7 @@ border-left: solid rgba(130,130,130,0.17)
 }
 /*footer*/
 .footer-top{
-    background-image: url(/pictures/footerbg.jpg);
+    background-image: url(https://raw.githubusercontent.com/niezze13835/HTML-CSS/main/footerbg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -1715,17 +1715,17 @@ a[href="/pages/term-and-conditions"] {
         left: 0;
     }
     #dgshs{
-        background-image: url('/pictures/c1 - s2.2.jpg');
+        background-image: url('https://raw.githubusercontent.com/niezze13835/HTML-CSS/main/c1%20-%20s1.1.jpg');
         background-size: cover; 
         background-position: 55% 55%;
     }
     #ghsd{
-        background-image: url('/pictures/c1\ -\ s1.1.jpg');
+        background-image: url('https://raw.githubusercontent.com/niezze13835/HTML-CSS/main/c1%20-%20s2.2.jpg');
         background-size: cover; 
         background-position: 55% 55%;
     }
     #rts{
-        background-image: url('/pictures/c1\ -\ s3.3.jpg');
+        background-image: url('https://raw.githubusercontent.com/niezze13835/HTML-CSS/main/c1%20-%20s3.3.jpg');
         background-size: cover; 
         background-position: 55% 55%;
     }
@@ -2733,17 +2733,17 @@ footer .instagram {
         left: 0;
     }
     #dgshs{
-        background-image: url('/pictures/c1 - s2.2.jpg');
+        background-image: url('https://raw.githubusercontent.com/niezze13835/HTML-CSS/main/c1%20-%20s2.2.jpg');
         background-size: cover; 
         background-position: 5% 5%;
     }
     #ghsd{
-        background-image: url('/pictures/c1\ -\ s1.1.jpg');
+        background-image: url('https://raw.githubusercontent.com/niezze13835/HTML-CSS/main/c1%20-%20s1.1.jpg');
         background-size: cover; 
         background-position: 55% 55%;
     }
     #rts{
-        background-image: url('/pictures/c1\ -\ s3.3.jpg');
+        background-image: url('https://raw.githubusercontent.com/niezze13835/HTML-CSS/main/c1%20-%20s3.3.jpg');
         background-size: cover; 
         background-position: 55% 55%;
     }
