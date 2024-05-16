@@ -546,7 +546,7 @@ span .order-1 :hover{
 .close-button span {
     width: 150%;
     height: 150px;
-    background-image: url('/pictures/ss.png');
+    background-image: url('https://raw.githubusercontent.com/niezze13835/HTML-CSS/main/ss.png');
     background-repeat: no-repeat;
     background-size: contain;
     pointer-events: none;
@@ -588,7 +588,7 @@ span .order-1 :hover{
 }
 /*Everything*/
 .browns{
-    background-image: url(/pictures/caty.jpg);
+    background-image: url(https://raw.githubusercontent.com/niezze13835/HTML-CSS/main/caty.jpg);
     height: 90vh;
     background-size:auto; 
 }
@@ -900,7 +900,7 @@ li .tab-title{
     padding: 70px;
     text-align: center;
     background-color: #d4d4d4;
-     background-image: url( /pictures/aboutbg.jpg ); 
+     background-image: url( https://raw.githubusercontent.com/niezze13835/HTML-CSS/main/aboutbg.jpg ); 
      height: auto; 
      margin-top: 0%;
 }
@@ -1110,7 +1110,7 @@ ul.breadcrumb {
 }
 #contpage{
     background-color: #d4d4d4;
-    background-image: url( /pictures/aboutbg.jpg ); 
+    background-image: url(https://raw.githubusercontent.com/niezze13835/HTML-CSS/main/aboutbg.jpg ); 
     height: 47vh;
     margin-top: 0%;
 }
@@ -1333,7 +1333,7 @@ border-left: solid rgba(130,130,130,0.17)
 }
 /*footer*/
 .footer-top{
-    background-image: url(/pictures/footerbg.jpg);
+    background-image: url(https://github.com/niezze13835/HTML-CSS/blob/main/footerbg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -1573,13 +1573,13 @@ a[href="/pages/term-and-conditions"] {
 }
 @media only screen and (max-width: 992px) {
     .eks {
-      left: 120%;
+      left: 100%;
       font-size: 14px;
       font-family: "Nunito", sans-serif;
     }
   
-    .navbar {
-      right: 5%;
+    #navbar {
+      height: 6vh;
     }
   
     .nav-overlay .nav-header {
@@ -1594,7 +1594,7 @@ a[href="/pages/term-and-conditions"] {
     .navbar-toggler  {
       font-size: 24px;
       width: 22px;
-      height: 15px;
+      height: 25px;
       display: inline-block !important;
       position: relative;
       padding: 0;
@@ -1638,14 +1638,15 @@ a[href="/pages/term-and-conditions"] {
       overflow-x: hidden;
     }
     .nav-overlay {
-        right: 25%;
+        right: 61%;
         top: -6.7vh;
         z-index: 1500; 
         display: none;
+        width: 100%;
     }
     .navbar-toggler {
-      right: 105%;
-      top: 8px;
+      right: 85%;
+      top: 2px;
       position: absolute;
     }
     .container-fluid {
@@ -1671,7 +1672,7 @@ a[href="/pages/term-and-conditions"] {
         top: -4%;
     }
     .icons .search-icon{
-        left:-5% ;
+        left:-230% ;
         top: 35%;
         position: absolute;
     }
@@ -1701,7 +1702,7 @@ a[href="/pages/term-and-conditions"] {
     }
     /*1st sec*/
     .w3-content{
-        height: 80vh;
+        height: 70vh;
     }
     .mySlides {
         width: 100%;
@@ -1720,17 +1721,17 @@ a[href="/pages/term-and-conditions"] {
         left: 0;
     }
     #dgshs{
-        background-image: url('/pictures/c1 - s2.2.jpg');
+        background-image: url('https://raw.githubusercontent.com/niezze13835/HTML-CSS/main/c1%20-%20s2.2.jpg');
         background-size: none; 
         background-position: -100% 55%;
     }
     #ghsd{
-        background-image: url('/pictures/c1\ -\ s1.1.jpg');
+        background-image: url('https://raw.githubusercontent.com/niezze13835/HTML-CSS/main/c1%20-%20s1.1.jpg');
         background-size: cover; 
         background-position: 55% 55%;
     }
     #rts{
-        background-image: url('/pictures/c1\ -\ s3.3.jpg');
+        background-image: url('https://raw.githubusercontent.com/niezze13835/HTML-CSS/main/c1%20-%20s3.3.jpg');
         background-size: cover; 
         background-position: 55% 55%;
     }
@@ -1738,8 +1739,8 @@ a[href="/pages/term-and-conditions"] {
         display: none;
     }
     .overflow-hiddensss .bigi{
-        font-size: 40px;
-        line-height: 40px;
+        font-size: 75px;
+        line-height: 70px;
         margin: 0px 0px 15px;
     }
     .overflow-hiddensss .gggs {
@@ -1790,12 +1791,12 @@ a[href="/pages/term-and-conditions"] {
     .categorie-box .titleh::after{
         content: "";
         display: block;
-        width: 40%;
+        width: 30%;
         height: 1px;
         background-color: black;
         position: absolute;
         bottom: 0;
-        left: 30%;
+        left: 35%;
         transform: scaleX(0);
         transition: transform 0.3s ease;
         transform-origin: left;
@@ -1811,26 +1812,31 @@ a[href="/pages/term-and-conditions"] {
          padding: 0px 0px 15px;
     }
     .content-inner .sub-title{
-        margin: 0px 0px 10px;
-        font-size: 15px;
+        margin: 0px 0px 5px;
+        font-size: 16px;
     }
    .block-cats{
-        width: 90%;
+        width: 100%;
    }
    .banner-content {
-        transform: translate(50%, -40%);
+        transform: translate(20%, -40%);
    }
+   .content-inner .titles{
+    margin: 0px 0px 0px;
+}
    .banner-item-inner a img.res-img-loaded{
         display: block;
-        margin: 0 5%; 
+        margin: 0 2%; 
         border-radius:20px;   
+        width: 100%;
+        height:auto;
    }
     .banner-item-inner a img.res-img-loaded:hover {
     opacity: 1;
     }
     .catsss{
     margin: 0;
-    height: 28vh;
+    height: 20vh;
     }
     /*4th sec*/
 .product-box {
@@ -1868,6 +1874,9 @@ a[href="/pages/term-and-conditions"] {
     font-size: 18px;
     text-decoration: none;
 }
+.product-box .product-buttons-wrap {
+    background-image: none; 
+} 
 span .price {
     color: #40505C;
     font-family: "Nunito", sans-serif;
@@ -1877,6 +1886,13 @@ span .price {
 .product-box .spr-badge-caption {
     display: none;
     margin-left: 4px;
+}
+.animals{
+    color: #142535;
+    font-size: 18px;
+    font-family: "Nunito", sans-serif;
+    padding: 80px 0px 0px;
+    margin-bottom: 0px;
 }
 #mahirap {
     margin: 0;
@@ -1891,7 +1907,7 @@ span .price {
 }
 
 .col-xl-auto{
-    margin: 20px 0px 0px;
+    margin: 10px 0px 0px;
     padding: 0px 15px;
 }
 .nav-tabs{
@@ -2025,20 +2041,21 @@ span .price {
     background-position: left center;
     background-size: cover;
     background-repeat: no-repeat;
-    height: 25vh;
+    height: 50vh;
 }
 .pots{
-    margin-top: 5%;
-    width: 55%;
-    margin-left: 30%;
+    margin-top: 10%;
+    width: 80%;
+    margin-left: 15%;
     
 }
 .pots .n{
     font-size: 22px;
+    margin-left: 0%;
 }
 .section-heading-food{
     margin-left: 15%;
-    font-size: 34px;
+    font-size: 38px;
     white-space: nowrap;
 
 }
@@ -2047,8 +2064,14 @@ span .price {
     max-width: 100%;
     width: 100%;
 }
+.order-2{
+    width: 150%;
+    white-space: nowrap;
+}
 .order-2, .order-22{
     font-size: 16px;
+    width: 100%;
+    max-width: 100%;
 }
 /*9th section*/
 .marquee{
@@ -2056,11 +2079,9 @@ span .price {
 }
 /*10th sec*/
 #doggie{
-    padding: 40px 0px 0px ;
+    padding: 40px 10px 0px ;
 }
-.dogggsss{
-    margin-left: 15%;
-}
+
 .doggie .col-lg-5{
     padding: 10px 25px;
     
@@ -2119,19 +2140,24 @@ span .price {
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 20vh;
+    height: 25vh;
 }
 /*12th sec*/
 .brandingg{
     height: auto;
     margin: 0;  
+    width: 100%;
+    
 }
 .client-logo{
     margin-top: 10%;
     margin-bottom: 15px;
+    
 }
 #lsjs{
     margin-bottom: 10%;
+    margin-left: -10%;
+    max-width: 100%;
 }
 /*13th section*/
 #lasst{
@@ -2140,8 +2166,8 @@ span .price {
 }
 
 .blog-item{
-    margin-left: 4%;
-    padding: 0px 0px 15px;
+    padding: 0px 0px 30px;
+    margin-right:10% ;
 }
 
 .res-img-loadeds{
@@ -2153,7 +2179,7 @@ span .price {
     margin: 0 auto;
 }
 .blog-post-meta{
-    margin-top: -8%;
+    margin-top: -14%;
     font-size: 14px;
 }
 .blog-post-title {
@@ -2171,16 +2197,14 @@ span .price {
     text-align: center !important;
     justify-content: center;
     align-items: center;
+    max-width: 100%;
 }
 .footer-top .section-bg{
     padding: 0px 0px 0px;
 }
 .footer-top .container{
-    margin-top: -12%;
+
     margin-bottom: 0%;
-}
-.d-inline-block{
-    margin-left: 10%;
 }
 .world {
     color: #142535;
@@ -2191,31 +2215,13 @@ span .price {
     margin-top: 6%;
     width: 100%;
     max-width: 100%;
-    margin-left: 5%;
+    
 }
-.collapsible {
-    display: block;
-    color: #40505C;
-    background: #00000000;
-    font-weight: 700;
-    cursor: pointer;
-    padding: 10px;
-    margin-left: 10%;
-    width: 100%;
-    border-top: none;
-    border-left: none;
-    border-right: none;
-    margin-top: -15%;
-    border-bottom:1px solid rgba(172, 172, 172, 0.355);
-    text-align: left;
-    outline: none;
-    font-size: 18px;  
-  }
+
 .footer-menu-link{
     text-align: left;
-    display: none;
-    overflow: hidden;
-    margin-left: 5%;
+    display: block;
+
 }
 .social-simple {
     list-style: none;
@@ -2224,12 +2230,7 @@ span .price {
     display: flex;
     margin-left: 0%;
 }
-.insta-items {
-    display: none;
-}
-footer .instagram .insta-items{
-   display: none;
-}
+
 .instagram-feed-item-wrapper:hover::before {
     content: "";
     position: absolute;
@@ -2254,14 +2255,20 @@ footer .instagram .insta-items{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 75px;
-    width: 75px;
+    height: 0px;
+    width: 0px;
     position: relative;
+    
+    left: -20%;
+    max-width: 100%;
 }
 
 .insta-items img {
     max-width: 100px;
     object-fit: cover;
+    height: 50px;
+    width: 50px;
+    display: none;
 }
 
 .insta-items .insta-hover {
@@ -2286,7 +2293,7 @@ footer .insta-items .insta-hover i {
 }
 
 .rayt {
-    margin-left: 30%;
+    margin-left: 20%;
 }
 
 .footer-bottom {
@@ -2307,7 +2314,7 @@ footer .insta-items .insta-hover i {
 
 footer .instagram .insta-btn {
     font-size: 14px;
-    left: 40%;
+
     color: #142535;
     text-decoration: none;
 }
@@ -2332,11 +2339,8 @@ footer .instagram .insta-btn {
 }
 footer .instagram {
     padding: 5px;
-    margin-top: -10%;
-    margin-bottom:-25%;
-}
-.block-heading {
-    display: none;
+    margin-bottom:-2%;
+    margin-left: -12%;
 }
 .menu-item {
     list-style: none;
@@ -2347,7 +2351,7 @@ footer .instagram {
 }
 .navigation-links {
     color: #40505C;
-    font-size: 18px;
+    font-size: 14px;
     font-family: "Nunito", sans-serif;
     font-weight: 400;
     line-height: 2;
@@ -2738,17 +2742,17 @@ footer .instagram {
         left: 0;
     }
     #dgshs{
-        background-image: url('/pictures/c1 - s2.2.jpg');
+        background-image: url('https://raw.githubusercontent.com/niezze13835/HTML-CSS/main/c1%20-%20s2.2.jpg');
         background-size: cover; 
         background-position: 5% 5%;
     }
     #ghsd{
-        background-image: url('/pictures/c1\ -\ s1.1.jpg');
+        background-image: url('https://raw.githubusercontent.com/niezze13835/HTML-CSS/main/c1%20-%20s1.1.jpg');
         background-size: cover; 
         background-position: 55% 55%;
     }
     #rts{
-        background-image: url('/pictures/c1\ -\ s3.3.jpg');
+        background-image: url('https://raw.githubusercontent.com/niezze13835/HTML-CSS/main/c1%20-%20s3.3.jpg');
         background-size: cover; 
         background-position: 55% 55%;
     }
