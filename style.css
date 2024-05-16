@@ -1333,7 +1333,7 @@ border-left: solid rgba(130,130,130,0.17)
 }
 /*footer*/
 .footer-top{
-    background-image: url(https://github.com/niezze13835/HTML-CSS/blob/main/footerbg.jpg);
+    background-image: url(https://raw.githubusercontent.com/niezze13835/HTML-CSS/main/footerbg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
