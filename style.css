@@ -775,7 +775,8 @@ span .price{
     position: absolute;
     bottom: 5px;
     width: calc(100% - 6px);
-    background-image:linear-gradient(white, rgba(108, 108, 108, 0.604)); 
+    height: 80px;
+    background-image: linear-gradient(rgba(255, 255, 255, 0),rgba(108, 108, 108, 0.071), rgba(108, 108, 108, 0.455)); 
 } 
 /* Button hover effect */
 .product-buttons-wrap:hover {
